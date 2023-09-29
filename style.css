@@ -96,6 +96,9 @@ ul li span{
     text-align: center;
     border-radius: 50%;
 }
+.sortable li::before {
+    cursor:pointer;
+}
 .sortable li:active {
     cursor: grabbing;
 }
