@@ -102,3 +102,6 @@ ul li span{
 .sortable li:active {
     cursor: grabbing;
 }
+.sortable li::after {
+    cursor:pointer;
+}
